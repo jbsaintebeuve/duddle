@@ -1,0 +1,36 @@
+.direction {
+    // position: relative;
+    
+    span {
+      position: absolute;
+      white-space: nowrap;
+      width: max-content;
+    }
+    #direction-1  {
+      position: absolute;
+      // top: 30%;
+      @media screen and (max-width: 768px) {
+        left: -150%;
+      }
+      left: -100%;
+      
+      span {
+        transform: rotate(9deg);
+      }
+     
+    }
+    #direction-2 {
+      position: absolute;
+      // top: 35%;
+      @media screen and (max-width: 768px) {
+        left: -250%;
+        // top: 20%;
+      }
+      left: -150%;
+  
+      span {
+        transform: rotate(-11deg);
+      }
+    }
+      
+  }
