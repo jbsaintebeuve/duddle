@@ -1,75 +1,80 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 🎨 Duddle - Stickers Made in France
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Présentation du projet
 
-## Available Scripts
+**Duddle** est une boutique en ligne spécialisée dans la vente de stickers design créés par des artistes français indépendants. Duddle soutient les talents locaux tout en proposant des créations originales et éco-responsables.
 
-In the project directory, you can run:
+Ce site web est une landing page interactive pour le lancement de la boutique, mettant en vedette un impressionnant **mur 3D collaboratif** où chaque utilisateur s'inscrivant à notre newsletter peut placer son propre sticker virtuel et participer à une œuvre collective évolutive.
 
-### `npm start`
+![Logo Duddle](public/logo.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Fonctionnalités
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🖼️ **Mur 3D interactif** permettant aux visiteurs de placer leur sticker virtuel
+- 📧 **Inscription newsletter** avec création automatique d'un sticker personnalisé
+- 🔄 **Navigation fluide** dans l'environnement 3D avec zoom et rotation
+- 🎭 **Prévisualisation des stickers** avant positionnement sur le mur
+- 💾 **Sauvegarde de position** des stickers de chaque utilisateur
+- 📱 Interface **responsive** adaptée aux mobiles et tablettes
+- 🌐 **Partage social** du mur communautaire et des positions de stickers
 
-### `npm test`
+## 🛠️ Technologies utilisées
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend** : React.js, Three.js pour la 3D, GSAP pour les animations
+- **Interactivité** : HTML5 Canvas, WebGL
+- **Styling** : CSS3 avec SASS, Styled Components
+- **Persistance** : LocalStorage (version sans base de données)
+- **3D** : Blender pour la création des assets 3D, react-three-fiber
+- **Performance** : Code splitting, lazy loading des modèles 3D
+- **Analytics** : Suivi des conversions et interactions utilisateur
 
-### `npm run build`
+## 🚀 Installation et démarrage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prérequis
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (version 14 ou supérieure)
+- npm (ou yarn)
+- Navigateur compatible WebGL
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+```bash
+# Cloner le dépôt
+git clone https://github.com/votre-username/Duddle_without_DB.git
+cd Duddle_without_DB
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Installer les dépendances
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Démarrage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+# Lancer l'application en mode développement
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+L'application sera accessible à l'adresse [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+### Production
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Construire l'application pour la production
+npm run build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📖 Comment utiliser le mur interactif Duddle
 
-### Code Splitting
+1. **Découverte** - Explorez le mur 3D en utilisant les contrôles de navigation (rotation, zoom)
+2. **Inscription** - Remplissez le formulaire de newsletter pour débloquer votre sticker personnalisé
+3. **Personnalisation** - Choisissez le design et la couleur de votre sticker parmi notre collection
+4. **Placement** - Positionnez votre sticker sur le mur communautaire à l'emplacement de votre choix
+5. **Partage** - Partagez votre création sur les réseaux sociaux avec un lien direct vers votre sticker
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📄 Licence
 
-### Analyzing the Bundle Size
+Ce projet est sous licence MIT - voir le fichier [LICENSE.md](LICENSE.md) pour plus de détails.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# duddle_landing_page
-Landing page de la page d'annonce du projet Duddle
->>>>>>> 93869f1 (Initial commit)
+Fait avec ❤️ à Bordeaux par l'équipe Duddle

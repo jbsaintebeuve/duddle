@@ -166,6 +166,7 @@ public/build/
 /api/data/
 *.json
 !package.json
+!vercel.json
 *.db
 *.sqlite
 *.sqlite3
