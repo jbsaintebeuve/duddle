@@ -6,7 +6,7 @@
 
 Ce site web est une landing page interactive pour le lancement de la boutique, mettant en vedette un impressionnant **mur 3D collaboratif** où chaque utilisateur s'inscrivant à notre newsletter peut placer son propre sticker virtuel et participer à une œuvre collective évolutive.
 
-![Logo Duddle](public/logo.png)
+![Logo Duddle](public/img/icon_logo.png)
 
 ## ✨ Fonctionnalités
 
@@ -34,24 +34,26 @@ Ce site web est une landing page interactive pour le lancement de la boutique, m
 
 - Node.js (version 14 ou supérieure)
 - npm (ou yarn)
+- vercel CLI
 - Navigateur compatible WebGL
 
 ### Installation
 
 ```bash
 # Cloner le dépôt
-git clone https://github.com/votre-username/Duddle_without_DB.git
-cd Duddle_without_DB
+git clone https://github.com/jbsaintebeuve/duddle.git
+cd duddle
 
 # Installer les dépendances
 npm install
+npm run api:install
 ```
 
 ### Démarrage
 
 ```bash
 # Lancer l'application en mode développement
-npm start
+vercel dev
 ```
 
 L'application sera accessible à l'adresse [http://localhost:3000](http://localhost:3000)
@@ -66,10 +68,9 @@ npm run build
 ## 📖 Comment utiliser le mur interactif Duddle
 
 1. **Découverte** - Explorez le mur 3D en utilisant les contrôles de navigation (rotation, zoom)
-2. **Inscription** - Remplissez le formulaire de newsletter pour débloquer votre sticker personnalisé
-3. **Personnalisation** - Choisissez le design et la couleur de votre sticker parmi notre collection
+2. **Inscription** - Remplissez le formulaire de newsletter pour débloquer votre sticker
+3. **Personnalisation** - Choisissez le design de votre sticker parmi notre collection
 4. **Placement** - Positionnez votre sticker sur le mur communautaire à l'emplacement de votre choix
-5. **Partage** - Partagez votre création sur les réseaux sociaux avec un lien direct vers votre sticker
 
 ## 📄 Licence
 
