@@ -165,6 +165,7 @@ public/build/
 # Data storage
 /api/data/
 *.json
+!package.json
 *.db
 *.sqlite
 *.sqlite3
