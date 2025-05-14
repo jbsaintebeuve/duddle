@@ -35,11 +35,24 @@ function Countdown({ targetDate }) {
   };
 
   return (
-    <div className="grid grid-cols-4 gap-4  text-white-50">
-      <CountdownItem time={formatTime(timeLeft).days} label="jours" />
-      <CountdownItem time={formatTime(timeLeft).hours} label="heures" />
-      <CountdownItem time={formatTime(timeLeft).minutes} label="minutes" />
-      <CountdownItem time={formatTime(timeLeft).secs} label="secondes" />
+    <div className="flex flex-col items-center gap-4">
+      {timeLeft !== 0 && (
+        <div className="grid grid-cols-4 gap-4 text-white-50">
+          <CountdownItem time={formatTime(timeLeft).days} label="jours" />
+          <CountdownItem time={formatTime(timeLeft).hours} label="heures" />
+          <CountdownItem time={formatTime(timeLeft).minutes} label="minutes" />
+          <CountdownItem time={formatTime(timeLeft).secs} label="secondes" />
+        </div>
+      )}
+
+      {timeLeft === 0 && (
+        <a
+          href="https://duddle.fr/"
+          className="mt-4 bg-casper-400 text-white-50 hover:bg-white-50 hover:text-casper-400 transition border-casper-400 border-2 font-semibold px-6 py-2 rounded-xl"
+        >
+          Visiter Duddle
+        </a>
+      )}
     </div>
   );
 }

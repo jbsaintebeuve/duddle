@@ -89,7 +89,7 @@ function UiHeroSection({
               Découvrez des stickers uniques et éthiques,
               <span>Made in Côte d’Azur !</span>
             </h2>
-            <Countdown targetDate={"2025-05-15T23:59:59"} />
+            <Countdown targetDate={"2025-05-15T12:40:00"} />
             {!isSuccess ? (
               <div className="flex flex-col gap-4 w-10/12 md:w-5/12">
                 <div className="flex flex-col gap-2">
